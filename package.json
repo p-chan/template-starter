@@ -1,12 +1,12 @@
 {
   "name": "template-starter",
-  "version": "0.0.0",
-  "description": "my luminous SAO template",
+  "version": "1.0.0",
+  "description": "Node.js project boilerplate for me",
   "repository": {
     "url": "p1ch-jp/template-starter",
     "type": "git"
   },
-  "author": "p1ch-jp <hello@0x50.io> (0x50.io)",
+  "author": "P-Chan <hello@0x50.io>",
   "license": "MIT",
   "files": [
     "sao.js",

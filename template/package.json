@@ -1,0 +1,23 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "keywords": [],
+  "homepage": "https://github.com/<%= username %>/<%= name %>",
+  "bugs": "https://github.com/<%= username %>/<%= name %>/issues",
+  "license": "MIT",
+  "author": "<%= nickname %> <<%= email %>>",
+  "main": "<%= entry %>",
+  "repository": "https://github.com/<%= username %>/<%= name %>.git",
+  "scripts": {
+    "lint": "eslint ./src"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

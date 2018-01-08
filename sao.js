@@ -14,13 +14,6 @@ module.exports = {
       message: 'How would you descripe the new project?',
       default: `my ${superb()} project`
     },
-    keywords: {
-      message: 'What year is this?',
-      default() {
-        const year = new Date().getFullYear()
-        return year
-      }
-    }
     entry: {
       message: 'Where is entry point?',
       default: 'index.js'

@@ -2,6 +2,6 @@
 
 > <%= description %>
 
-## License
+# License
 
-MIT &copy; <%= username %>
+The MIT License. See [LICENSE](LICENSE).

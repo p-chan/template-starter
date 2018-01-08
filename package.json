@@ -1,0 +1,25 @@
+{
+  "name": "template-starter",
+  "version": "0.0.0",
+  "description": "my luminous SAO template",
+  "repository": {
+    "url": "p1ch-jp/template-starter",
+    "type": "git"
+  },
+  "author": "p1ch-jp <hello@0x50.io> (0x50.io)",
+  "license": "MIT",
+  "files": [
+    "sao.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "superb": "^1.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "sao": "^0.22.1"
+  }
+}

@@ -8,7 +8,10 @@
   "license": "MIT",
   "author": "<%= nickname %> <<%= email %>>",
   "main": "<%= entry %>",
-  "repository": "https://github.com/<%= username %>/<%= name %>.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/<%= username %>/<%= name %>.git"
+  },
   "scripts": {
     "lint": "eslint ./src"
   },
